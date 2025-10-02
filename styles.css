@@ -43,12 +43,16 @@ strong {
     margin-top: 50px;
     padding-top: 20px;
     border-top: 1px solid #ccc;
+    display: flex; /* Added */
+    flex-wrap: wrap; /* Added */
+    justify-content: center; /* Added */
+    gap: 10px; /* Added for spacing */
 }
 
 .navigation a {
     text-decoration: none;
     padding: 10px 20px;
-    margin: 0 10px;
+    /* margin: 0 10px;  - Replaced by gap */
     border: 1px solid #ddd;
     border-radius: 5px;
     color: #333;
